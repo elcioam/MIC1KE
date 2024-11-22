@@ -1,4 +1,6 @@
 vendor_name = ModelSim
+source_file = 1, C:/Users/elcio/Documents/MIC1/mpc_generator.vwf
+source_file = 1, C:/Users/elcio/Documents/MIC1/datapathPortas.vwf
 source_file = 1, C:/Users/elcio/Documents/MIC1/DATAPATH3.vwf
 source_file = 1, C:/Users/elcio/Documents/MIC1/REGISTER32bit.vwf
 source_file = 1, C:/Users/elcio/Documents/MIC1/decoder2to4.bdf
@@ -48,7 +50,7 @@ source_file = 1, C:/Users/elcio/Documents/MIC1/DATAPATH.bdf
 source_file = 1, C:/Users/elcio/Documents/MIC1/SHIFTER_ULA.bdf
 source_file = 1, C:/Users/elcio/Documents/MIC1/H.vwf
 source_file = 1, C:/Users/elcio/Documents/MIC1/REGISTER8bit.bdf
-source_file = 1, C:/Users/elcio/Documents/MIC1/datapathComunicação.vwf
+source_file = 1, C:/Users/elcio/Documents/MIC1/MPC_GENERATOR.bdf
 source_file = 1, C:/Users/elcio/Documents/MIC1/db/mic1.cbx.xml
 source_file = 1, e:/programas/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, e:/programas/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
