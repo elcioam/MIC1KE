@@ -1,5 +1,5 @@
 EDA Netlist Writer report for mic1
-Fri Oct 25 15:10:54 2024
+Mon Dec 02 18:18:42 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -8,9 +8,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
 ---------------------
   1. Legal Notice
   2. EDA Netlist Writer Summary
-  3. Simulation Settings
-  4. Simulation Generated Files
-  5. EDA Netlist Writer Messages
+  3. EDA Netlist Writer Messages
 
 
 
@@ -36,42 +34,11 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Oct 25 15:10:54 2024 ;
+; EDA Netlist Writer Status ; Successful - Mon Dec 02 18:18:42 2024 ;
 ; Revision Name             ; mic1                                  ;
-; Top-level Entity Name     ; DATAPATH                              ;
+; Top-level Entity Name     ; CONTROL_UNIT                          ;
 ; Family                    ; Cyclone II                            ;
-; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                           ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-; Option                                                                                            ; Setting                   ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate netlist for functional simulation only                                                   ; On                        ;
-; Truncate long hierarchy paths                                                                     ; Off                       ;
-; Map illegal HDL characters                                                                        ; Off                       ;
-; Flatten buses into individual nodes                                                               ; Off                       ;
-; Maintain hierarchy                                                                                ; Off                       ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
-; Enable glitch filtering                                                                           ; Off                       ;
-; Do not write top level VHDL entity                                                                ; Off                       ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
-; Architecture name in VHDL output netlist                                                          ; structure                 ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-
-
-+-----------------------------------------------------------+
-; Simulation Generated Files                                ;
-+-----------------------------------------------------------+
-; Generated Files                                           ;
-+-----------------------------------------------------------+
-; C:/Users/elcio/Documents/MIC1/simulation/modelsim/mic1.vo ;
-+-----------------------------------------------------------+
 
 
 +-----------------------------+
@@ -80,13 +47,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 25 15:10:53 2024
-Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog mic1 -c mic1
-Info (204019): Generated file mic1.vo in folder "C:/Users/elcio/Documents/MIC1/simulation/modelsim/" for EDA simulation tool
+    Info: Processing started: Mon Dec 02 18:18:42 2024
+Info: Command: quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog mic1 -c mic1 --vector_source=C:/Users/elcio/Documents/MIC1/CONTROL_UNIT_iadd_isub.vwf --testbench_file=C:/Users/elcio/Documents/MIC1/simulation/modelsim/CONTROL_UNIT_iadd_isub.vwf.vt
+Info (201000): Generated Verilog Test Bench File C:/Users/elcio/Documents/MIC1/simulation/modelsim/CONTROL_UNIT_iadd_isub.vwf.vt for simulation
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4521 megabytes
-    Info: Processing ended: Fri Oct 25 15:10:54 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4520 megabytes
+    Info: Processing ended: Mon Dec 02 18:18:42 2024
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 
