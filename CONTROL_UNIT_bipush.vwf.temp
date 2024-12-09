@@ -640,10 +640,11 @@ TRANSITION_LIST("CLOCK")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 7;
-			LEVEL 0 FOR 140.0;
-			LEVEL 1 FOR 60.0;
+			REPEAT = 9;
+			LEVEL 0 FOR 75.0;
+			LEVEL 1 FOR 75.0;
 		}
+		LEVEL 0 FOR 50.0;
 	}
 }
 

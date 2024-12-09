@@ -85,7 +85,7 @@ BEGIN
 	GENERIC MAP (
 		clock_enable_input_a => "BYPASS",
 		clock_enable_output_a => "BYPASS",
-		init_file => "microprogram.mif",
+		init_file => "../../Downloads/micro_code.mif",
 		intended_device_family => "Cyclone II",
 		lpm_hint => "ENABLE_RUNTIME_MOD=NO",
 		lpm_type => "altsyncram",
@@ -127,7 +127,7 @@ END SYN;
 -- Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "0"
 -- Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 -- Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
--- Retrieval info: PRIVATE: MIFfilename STRING "microprogram.mif"
+-- Retrieval info: PRIVATE: MIFfilename STRING "../../Downloads/micro_code.mif"
 -- Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "512"
 -- Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 -- Retrieval info: PRIVATE: RegAddr NUMERIC "1"
@@ -141,7 +141,7 @@ END SYN;
 -- Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "BYPASS"
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
--- Retrieval info: CONSTANT: INIT_FILE STRING "microprogram.mif"
+-- Retrieval info: CONSTANT: INIT_FILE STRING "../../Downloads/micro_code.mif"
 -- Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone II"
 -- Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=NO"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
@@ -161,6 +161,6 @@ END SYN;
 -- Retrieval info: GEN_FILE: TYPE_NORMAL CONTROL_STORE.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL CONTROL_STORE.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL CONTROL_STORE.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL CONTROL_STORE.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL CONTROL_STORE.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL CONTROL_STORE_inst.vhd FALSE
 -- Retrieval info: LIB_FILE: altera_mf
