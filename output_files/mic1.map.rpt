@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mic1
-Mon Dec 09 16:00:53 2024
+Thu Dec 12 13:19:55 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -19,7 +19,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  11. General Register Statistics
  12. Inverted Register Statistics
  13. Multiplexer Restructuring Statistics (Restructuring Performed)
- 14. Source assignments for CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated
+ 14. Source assignments for CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated
  15. Parameter Settings for User Entity Instance: CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component
  16. altsyncram Parameter Settings by Entity Instance
  17. Elapsed Time Per Partition
@@ -49,7 +49,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Dec 09 16:00:53 2024           ;
+; Analysis & Synthesis Status        ; Successful - Thu Dec 12 13:19:55 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; mic1                                            ;
 ; Top-level Entity Name              ; CPU                                             ;
@@ -161,50 +161,50 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                          ;
-+---------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------+---------+
-; File Name with User-Entered Path      ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                       ; Library ;
-+---------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------+---------+
-; decoder2to4.bdf                       ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/decoder2to4.bdf                      ;         ;
-; FullAdder_1bit.bdf                    ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/FullAdder_1bit.bdf                   ;         ;
-; ULA_1bit.bdf                          ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/ULA_1bit.bdf                         ;         ;
-; ULA_32bit.bdf                         ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/ULA_32bit.bdf                        ;         ;
-; ULA_8bit.bdf                          ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/ULA_8bit.bdf                         ;         ;
-; BANK_REG.bdf                          ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/BANK_REG.bdf                         ;         ;
-; MAR.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/MAR.bdf                              ;         ;
-; REGISTER32bit.bdf                     ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/REGISTER32bit.bdf                    ;         ;
-; MDR.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/MDR.bdf                              ;         ;
-; PC.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/PC.bdf                               ;         ;
-; MBR.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/MBR.bdf                              ;         ;
-; SP.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/SP.bdf                               ;         ;
-; LV.bdf                                ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/LV.bdf                               ;         ;
-; LV_init.bdf                           ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/LV_init.bdf                          ;         ;
-; CPP.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/CPP.bdf                              ;         ;
-; TOS.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/TOS.bdf                              ;         ;
-; OPC.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/OPC.bdf                              ;         ;
-; H.bdf                                 ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/H.bdf                                ;         ;
-; DATAPATH.bdf                          ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/DATAPATH.bdf                         ;         ;
-; SHIFTER_ULA.bdf                       ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/SHIFTER_ULA.bdf                      ;         ;
-; REGISTER8bit.bdf                      ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/REGISTER8bit.bdf                     ;         ;
-; MPC_GENERATOR.bdf                     ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/MPC_GENERATOR.bdf                    ;         ;
-; CONTROL_UNIT.bdf                      ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/CONTROL_UNIT.bdf                     ;         ;
-; CPU.bdf                               ; yes             ; User Block Diagram/Schematic File      ; C:/Users/elcio/Documents/MIC1/CPU.bdf                              ;         ;
-; control_store.vhd                     ; yes             ; Auto-Found Wizard-Generated File       ; C:/Users/elcio/Documents/MIC1/control_store.vhd                    ;         ;
-; altsyncram.tdf                        ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
-; stratix_ram_block.inc                 ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
-; lpm_mux.inc                           ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
-; lpm_decode.inc                        ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
-; aglobal130.inc                        ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/aglobal130.inc        ;         ;
-; a_rdenreg.inc                         ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
-; altrom.inc                            ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/altrom.inc            ;         ;
-; altram.inc                            ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/altram.inc            ;         ;
-; altdpram.inc                          ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/megafunctions/altdpram.inc          ;         ;
-; db/altsyncram_sg91.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/elcio/Documents/MIC1/db/altsyncram_sg91.tdf               ;         ;
-; /users/elcio/downloads/micro_code.mif ; yes             ; Auto-Found Memory Initialization File  ; /users/elcio/downloads/micro_code.mif                              ;         ;
-; xor3.bdf                              ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/others/maxplus2/xor3.bdf            ;         ;
-; xor4.bdf                              ; yes             ; Megafunction                           ; e:/programas/quartus/libraries/others/maxplus2/xor4.bdf            ;         ;
-+---------------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                 ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                       ; Library ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------+---------+
+; CONTROL_STORE.vhd                ; yes             ; User Wizard-Generated File         ; C:/Users/elcio/Documents/MIC1/CONTROL_STORE.vhd                    ;         ;
+; decoder2to4.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/decoder2to4.bdf                      ;         ;
+; FullAdder_1bit.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/FullAdder_1bit.bdf                   ;         ;
+; ULA_1bit.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/ULA_1bit.bdf                         ;         ;
+; ULA_32bit.bdf                    ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/ULA_32bit.bdf                        ;         ;
+; ULA_8bit.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/ULA_8bit.bdf                         ;         ;
+; BANK_REG.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/BANK_REG.bdf                         ;         ;
+; MAR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/MAR.bdf                              ;         ;
+; REGISTER32bit.bdf                ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/REGISTER32bit.bdf                    ;         ;
+; MDR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/MDR.bdf                              ;         ;
+; PC.bdf                           ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/PC.bdf                               ;         ;
+; MBR.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/MBR.bdf                              ;         ;
+; SP.bdf                           ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/SP.bdf                               ;         ;
+; LV.bdf                           ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/LV.bdf                               ;         ;
+; LV_init.bdf                      ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/LV_init.bdf                          ;         ;
+; CPP.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/CPP.bdf                              ;         ;
+; TOS.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/TOS.bdf                              ;         ;
+; OPC.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/OPC.bdf                              ;         ;
+; H.bdf                            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/H.bdf                                ;         ;
+; DATAPATH.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/DATAPATH.bdf                         ;         ;
+; SHIFTER_ULA.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/SHIFTER_ULA.bdf                      ;         ;
+; REGISTER8bit.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/REGISTER8bit.bdf                     ;         ;
+; MPC_GENERATOR.bdf                ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/MPC_GENERATOR.bdf                    ;         ;
+; CONTROL_UNIT.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/CONTROL_UNIT.bdf                     ;         ;
+; CPU.bdf                          ; yes             ; User Block Diagram/Schematic File  ; C:/Users/elcio/Documents/MIC1/CPU.bdf                              ;         ;
+; microprogram.mif                 ; yes             ; User Memory Initialization File    ; C:/Users/elcio/Documents/MIC1/microprogram.mif                     ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/aglobal130.inc        ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
+; altrom.inc                       ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/altrom.inc            ;         ;
+; altram.inc                       ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/altram.inc            ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/megafunctions/altdpram.inc          ;         ;
+; db/altsyncram_ag81.tdf           ; yes             ; Auto-Generated Megafunction        ; C:/Users/elcio/Documents/MIC1/db/altsyncram_ag81.tdf               ;         ;
+; xor3.bdf                         ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/others/maxplus2/xor3.bdf            ;         ;
+; xor4.bdf                         ; yes             ; Megafunction                       ; e:/programas/quartus/libraries/others/maxplus2/xor4.bdf            ;         ;
++----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -247,7 +247,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;    |CONTROL_UNIT:inst4|                      ; 10 (0)            ; 11 (9)       ; 18432       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPU|CONTROL_UNIT:inst4                                                                                         ; work         ;
 ;       |CONTROL_STORE:inst5|                  ; 0 (0)             ; 0 (0)        ; 18432       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPU|CONTROL_UNIT:inst4|CONTROL_STORE:inst5                                                                     ; work         ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)             ; 0 (0)        ; 18432       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPU|CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component                                     ; work         ;
-;             |altsyncram_sg91:auto_generated| ; 0 (0)             ; 0 (0)        ; 18432       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPU|CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated      ; work         ;
+;             |altsyncram_ag81:auto_generated| ; 0 (0)             ; 0 (0)        ; 18432       ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPU|CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated      ; work         ;
 ;       |MPC_GENERATOR:inst21|                 ; 10 (10)           ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPU|CONTROL_UNIT:inst4|MPC_GENERATOR:inst21                                                                    ; work         ;
 ;    |DATAPATH:inst|                           ; 453 (0)           ; 306 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPU|DATAPATH:inst                                                                                              ; work         ;
 ;       |BANK_REG:inst2|                       ; 194 (146)         ; 306 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |CPU|DATAPATH:inst|BANK_REG:inst2                                                                               ; work         ;
@@ -447,13 +447,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                                                    ;
-+------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+--------------------------------+
-; Name                                                                                                             ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF                            ;
-+------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+--------------------------------+
-; CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 512          ; 36           ; --           ; --           ; 18432 ; ../../Downloads/micro_code.mif ;
-+------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+--------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                      ;
++------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+------------------+
+; Name                                                                                                             ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF              ;
++------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+------------------+
+; CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 512          ; 36           ; --           ; --           ; 18432 ; microprogram.mif ;
++------------------------------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -461,7 +461,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+---------------------------------------------+-------------------------------------------------+
 ; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                             ; IP Include File                                 ;
 +--------+--------------+---------+--------------+--------------+---------------------------------------------+-------------------------------------------------+
-; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |CPU|CONTROL_UNIT:inst4|CONTROL_STORE:inst5 ; C:/Users/elcio/Documents/MIC1/control_store.vhd ;
+; Altera ; ROM: 1-PORT  ; N/A     ; N/A          ; N/A          ; |CPU|CONTROL_UNIT:inst4|CONTROL_STORE:inst5 ; C:/Users/elcio/Documents/MIC1/CONTROL_STORE.vhd ;
 +--------+--------------+---------+--------------+--------------+---------------------------------------------+-------------------------------------------------+
 
 
@@ -562,7 +562,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated ;
+; Source assignments for CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                             ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------+
@@ -572,62 +572,62 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 +---------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component ;
-+------------------------------------+--------------------------------+-----------------------------------------------+
-; Parameter Name                     ; Value                          ; Type                                          ;
-+------------------------------------+--------------------------------+-----------------------------------------------+
-; BYTE_SIZE_BLOCK                    ; 8                              ; Untyped                                       ;
-; AUTO_CARRY_CHAINS                  ; ON                             ; AUTO_CARRY                                    ;
-; IGNORE_CARRY_BUFFERS               ; OFF                            ; IGNORE_CARRY                                  ;
-; AUTO_CASCADE_CHAINS                ; ON                             ; AUTO_CASCADE                                  ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                            ; IGNORE_CASCADE                                ;
-; WIDTH_BYTEENA                      ; 1                              ; Untyped                                       ;
-; OPERATION_MODE                     ; ROM                            ; Untyped                                       ;
-; WIDTH_A                            ; 36                             ; Signed Integer                                ;
-; WIDTHAD_A                          ; 9                              ; Signed Integer                                ;
-; NUMWORDS_A                         ; 512                            ; Signed Integer                                ;
-; OUTDATA_REG_A                      ; UNREGISTERED                   ; Untyped                                       ;
-; ADDRESS_ACLR_A                     ; NONE                           ; Untyped                                       ;
-; OUTDATA_ACLR_A                     ; NONE                           ; Untyped                                       ;
-; WRCONTROL_ACLR_A                   ; NONE                           ; Untyped                                       ;
-; INDATA_ACLR_A                      ; NONE                           ; Untyped                                       ;
-; BYTEENA_ACLR_A                     ; NONE                           ; Untyped                                       ;
-; WIDTH_B                            ; 1                              ; Untyped                                       ;
-; WIDTHAD_B                          ; 1                              ; Untyped                                       ;
-; NUMWORDS_B                         ; 1                              ; Untyped                                       ;
-; INDATA_REG_B                       ; CLOCK1                         ; Untyped                                       ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                         ; Untyped                                       ;
-; RDCONTROL_REG_B                    ; CLOCK1                         ; Untyped                                       ;
-; ADDRESS_REG_B                      ; CLOCK1                         ; Untyped                                       ;
-; OUTDATA_REG_B                      ; UNREGISTERED                   ; Untyped                                       ;
-; BYTEENA_REG_B                      ; CLOCK1                         ; Untyped                                       ;
-; INDATA_ACLR_B                      ; NONE                           ; Untyped                                       ;
-; WRCONTROL_ACLR_B                   ; NONE                           ; Untyped                                       ;
-; ADDRESS_ACLR_B                     ; NONE                           ; Untyped                                       ;
-; OUTDATA_ACLR_B                     ; NONE                           ; Untyped                                       ;
-; RDCONTROL_ACLR_B                   ; NONE                           ; Untyped                                       ;
-; BYTEENA_ACLR_B                     ; NONE                           ; Untyped                                       ;
-; WIDTH_BYTEENA_A                    ; 1                              ; Signed Integer                                ;
-; WIDTH_BYTEENA_B                    ; 1                              ; Untyped                                       ;
-; RAM_BLOCK_TYPE                     ; AUTO                           ; Untyped                                       ;
-; BYTE_SIZE                          ; 8                              ; Untyped                                       ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                      ; Untyped                                       ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ           ; Untyped                                       ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ           ; Untyped                                       ;
-; INIT_FILE                          ; ../../Downloads/micro_code.mif ; Untyped                                       ;
-; INIT_FILE_LAYOUT                   ; PORT_A                         ; Untyped                                       ;
-; MAXIMUM_DEPTH                      ; 0                              ; Untyped                                       ;
-; CLOCK_ENABLE_INPUT_A               ; BYPASS                         ; Untyped                                       ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL                         ; Untyped                                       ;
-; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                         ; Untyped                                       ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                         ; Untyped                                       ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                ; Untyped                                       ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                ; Untyped                                       ;
-; ENABLE_ECC                         ; FALSE                          ; Untyped                                       ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                          ; Untyped                                       ;
-; WIDTH_ECCSTATUS                    ; 3                              ; Untyped                                       ;
-; DEVICE_FAMILY                      ; Cyclone II                     ; Untyped                                       ;
-; CBXI_PARAMETER                     ; altsyncram_sg91                ; Untyped                                       ;
-+------------------------------------+--------------------------------+-----------------------------------------------+
++------------------------------------+----------------------+---------------------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                                    ;
++------------------------------------+----------------------+---------------------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                                 ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                              ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                            ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                            ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                                          ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                                 ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                                                 ;
+; WIDTH_A                            ; 36                   ; Signed Integer                                          ;
+; WIDTHAD_A                          ; 9                    ; Signed Integer                                          ;
+; NUMWORDS_A                         ; 512                  ; Signed Integer                                          ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                                                 ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                                 ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                                 ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                                 ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                                 ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                                 ;
+; WIDTH_B                            ; 1                    ; Untyped                                                 ;
+; WIDTHAD_B                          ; 1                    ; Untyped                                                 ;
+; NUMWORDS_B                         ; 1                    ; Untyped                                                 ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                                 ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                                 ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                                 ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                                                 ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                                                 ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                                 ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                                 ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                 ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                                 ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                                 ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                 ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                                 ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                                          ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                                                 ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                                 ;
+; BYTE_SIZE                          ; 8                    ; Untyped                                                 ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                                 ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                                 ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                                 ;
+; INIT_FILE                          ; microprogram.mif     ; Untyped                                                 ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                                 ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                                 ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                                 ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                                 ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                                                 ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                                 ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                                 ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                                 ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                                 ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                                 ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                                 ;
+; DEVICE_FAMILY                      ; Cyclone II           ; Untyped                                                 ;
+; CBXI_PARAMETER                     ; altsyncram_ag81      ; Untyped                                                 ;
++------------------------------------+----------------------+---------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -666,9 +666,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Dec 09 16:00:49 2024
+    Info: Processing started: Thu Dec 12 13:19:50 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mic1 -c mic1
 Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file control_store.vhd
+    Info (12022): Found design unit 1: control_store-SYN
+    Info (12023): Found entity 1: CONTROL_STORE
+Info (12021): Found 2 design units, including 1 entities, in source file controlstore.vhd
+    Info (12022): Found design unit 1: controlstore-SYN
+    Info (12023): Found entity 1: controlStore
 Info (12021): Found 1 design units, including 1 entities, in source file decoder2to4.bdf
     Info (12023): Found entity 1: decoder2to4
 Info (12021): Found 1 design units, including 1 entities, in source file decoder3to8.bdf
@@ -737,16 +743,13 @@ Info (12021): Found 1 design units, including 1 entities, in source file cpu.bdf
     Info (12023): Found entity 1: CPU
 Info (12127): Elaborating entity "CPU" for the top level hierarchy
 Info (12128): Elaborating entity "CONTROL_UNIT" for hierarchy "CONTROL_UNIT:inst4"
-Warning (12125): Using design file control_store.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: control_store-SYN
-    Info (12023): Found entity 1: CONTROL_STORE
 Info (12128): Elaborating entity "CONTROL_STORE" for hierarchy "CONTROL_UNIT:inst4|CONTROL_STORE:inst5"
 Info (12128): Elaborating entity "altsyncram" for hierarchy "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component"
 Info (12130): Elaborated megafunction instantiation "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component"
 Info (12133): Instantiated megafunction "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component" with the following parameter:
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
-    Info (12134): Parameter "init_file" = "../../Downloads/micro_code.mif"
+    Info (12134): Parameter "init_file" = "microprogram.mif"
     Info (12134): Parameter "intended_device_family" = "Cyclone II"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
@@ -757,9 +760,9 @@ Info (12133): Instantiated megafunction "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|
     Info (12134): Parameter "widthad_a" = "9"
     Info (12134): Parameter "width_a" = "36"
     Info (12134): Parameter "width_byteena_a" = "1"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_sg91.tdf
-    Info (12023): Found entity 1: altsyncram_sg91
-Info (12128): Elaborating entity "altsyncram_sg91" for hierarchy "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ag81.tdf
+    Info (12023): Found entity 1: altsyncram_ag81
+Info (12128): Elaborating entity "altsyncram_ag81" for hierarchy "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated"
 Info (12128): Elaborating entity "MPC_GENERATOR" for hierarchy "CONTROL_UNIT:inst4|MPC_GENERATOR:inst21"
 Info (12128): Elaborating entity "DATAPATH" for hierarchy "DATAPATH:inst"
 Info (12128): Elaborating entity "SHIFTER_ULA" for hierarchy "DATAPATH:inst|SHIFTER_ULA:inst"
@@ -974,10 +977,10 @@ Info (21057): Implemented 970 device resources after synthesis - the final resou
     Info (21059): Implemented 150 output pins
     Info (21061): Implemented 742 logic cells
     Info (21064): Implemented 36 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 181 warnings
-    Info: Peak virtual memory: 4649 megabytes
-    Info: Processing ended: Mon Dec 09 16:00:53 2024
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 180 warnings
+    Info: Peak virtual memory: 4651 megabytes
+    Info: Processing ended: Thu Dec 12 13:19:55 2024
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
 
 

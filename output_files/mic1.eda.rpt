@@ -1,5 +1,5 @@
 EDA Netlist Writer report for mic1
-Mon Dec 09 18:20:00 2024
+Thu Dec 12 13:20:12 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Dec 09 18:20:00 2024 ;
+; EDA Netlist Writer Status ; Successful - Thu Dec 12 13:20:12 2024 ;
 ; Revision Name             ; mic1                                  ;
 ; Top-level Entity Name     ; CPU                                   ;
 ; Family                    ; Cyclone II                            ;
@@ -84,13 +84,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Dec 09 18:20:00 2024
-Info: Command: quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog mic1 -c mic1
+    Info: Processing started: Thu Dec 12 13:20:11 2024
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off mic1 -c mic1
 Info (204026): Generated files "mic1.vo", "mic1_fast.vo", "mic1_v.sdo" and "mic1_v_fast.sdo" in directory "C:/Users/elcio/Documents/MIC1/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4541 megabytes
-    Info: Processing ended: Mon Dec 09 18:20:00 2024
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 4534 megabytes
+    Info: Processing ended: Thu Dec 12 13:20:12 2024
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

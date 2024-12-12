@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="mic1">
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_sg91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ag81.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

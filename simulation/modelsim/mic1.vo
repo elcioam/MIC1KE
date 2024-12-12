@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "12/09/2024 18:20:00"
+// DATE "12/12/2024 13:20:11"
 
 // 
 // Device: Altera EP2C15AF484C6 Package FBGA484
@@ -1080,12 +1080,12 @@ wire \inst|inst2|inst4|inst|inst|inst20~regout ;
 wire \inst|inst2|inst4|inst|inst|inst16~regout ;
 wire \inst|inst2|inst4|inst|inst|inst8~feeder_combout ;
 wire \inst|inst2|inst4|inst|inst|inst8~regout ;
+wire [7:0] \inst4|inst2 ;
 wire [35:0] \inst4|inst5|altsyncram_component|auto_generated|q_a ;
 wire [7:0] \inst4|inst21|inst9 ;
 wire [31:0] \inst|inst|inst1 ;
 wire [7:0] \PROG_MEM_IN~combout ;
 wire [31:0] \DATA_MEM_IN~combout ;
-wire [7:0] \inst4|inst2 ;
 
 wire [8:0] \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27_PORTADATAOUT_bus ;
 wire [8:0] \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18_PORTADATAOUT_bus ;
@@ -4732,9 +4732,9 @@ cycloneii_ram_block \inst4|inst5|altsyncram_component|auto_generated|ram_block1a
 // synopsys translate_off
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .data_interleave_offset_in_bits = 1;
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .data_interleave_width_in_bits = 1;
-defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .init_file = "../../Downloads/micro_code.mif";
+defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .init_file = "microprogram.mif";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .init_file_layout = "port_a";
-defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .logical_ram_name = "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated|ALTSYNCRAM";
+defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .logical_ram_name = "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated|ALTSYNCRAM";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .operation_mode = "rom";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .port_a_address_clear = "none";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a27 .port_a_address_width = 9;
@@ -4784,9 +4784,9 @@ cycloneii_ram_block \inst4|inst5|altsyncram_component|auto_generated|ram_block1a
 // synopsys translate_off
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .data_interleave_offset_in_bits = 1;
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .data_interleave_width_in_bits = 1;
-defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .init_file = "../../Downloads/micro_code.mif";
+defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .init_file = "microprogram.mif";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .init_file_layout = "port_a";
-defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .logical_ram_name = "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated|ALTSYNCRAM";
+defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .logical_ram_name = "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated|ALTSYNCRAM";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .operation_mode = "rom";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .port_a_address_clear = "none";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a18 .port_a_address_width = 9;
@@ -4853,9 +4853,9 @@ cycloneii_ram_block \inst4|inst5|altsyncram_component|auto_generated|ram_block1a
 // synopsys translate_off
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .data_interleave_offset_in_bits = 1;
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .data_interleave_width_in_bits = 1;
-defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .init_file = "../../Downloads/micro_code.mif";
+defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .init_file = "microprogram.mif";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .init_file_layout = "port_a";
-defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .logical_ram_name = "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated|ALTSYNCRAM";
+defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .logical_ram_name = "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated|ALTSYNCRAM";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .operation_mode = "rom";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .port_a_address_clear = "none";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a0 .port_a_address_width = 9;
@@ -14286,9 +14286,9 @@ cycloneii_ram_block \inst4|inst5|altsyncram_component|auto_generated|ram_block1a
 // synopsys translate_off
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .data_interleave_offset_in_bits = 1;
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .data_interleave_width_in_bits = 1;
-defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .init_file = "../../Downloads/micro_code.mif";
+defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .init_file = "microprogram.mif";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .init_file_layout = "port_a";
-defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .logical_ram_name = "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_sg91:auto_generated|ALTSYNCRAM";
+defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .logical_ram_name = "CONTROL_UNIT:inst4|CONTROL_STORE:inst5|altsyncram:altsyncram_component|altsyncram_ag81:auto_generated|ALTSYNCRAM";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .operation_mode = "rom";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .port_a_address_clear = "none";
 defparam \inst4|inst5|altsyncram_component|auto_generated|ram_block1a7 .port_a_address_width = 9;
