@@ -395,11 +395,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1208 152)
-	(pt 840 152)
-	(bus)
-)
-(connector
 	(text "MIR[6]" (rect 450 424 483 436)(font "Arial" ))
 	(pt 512 440)
 	(pt 440 440)
@@ -465,5 +460,11 @@ applicable agreement for further details.
 	(text "CLOCKN" (rect 808 264 854 276)(font "Arial" ))
 	(pt 952 280)
 	(pt 800 280)
+)
+(connector
+	(text "MPC[8..0]" (rect 1106 136 1155 148)(font "Arial" ))
+	(pt 1208 152)
+	(pt 840 152)
+	(bus)
 )
 (junction (pt 840 200))

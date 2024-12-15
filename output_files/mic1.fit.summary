@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu Dec 12 13:20:05 2024
+Fitter Status : Successful - Sun Dec 15 12:28:38 2024
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : mic1
 Top-level Entity Name : CPU
 Family : Cyclone II
 Device : EP2C15AF484C6
 Timing Models : Final
-Total logic elements : 592 / 14,448 ( 4 % )
-    Total combinational functions : 463 / 14,448 ( 3 % )
+Total logic elements : 561 / 14,448 ( 4 % )
+    Total combinational functions : 433 / 14,448 ( 3 % )
     Dedicated logic registers : 317 / 14,448 ( 2 % )
 Total registers : 317
 Total pins : 192 / 315 ( 61 % )

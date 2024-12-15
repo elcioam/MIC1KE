@@ -715,12 +715,6 @@ applicable agreement for further details.
 	(pt -136 464)
 )
 (connector
-	(text "<<__$DEF_ALIAS70369>>" (rect 313 304 442 316)(font "Arial" )(invisible))
-	(pt 480 320)
-	(pt 200 320)
-	(bus)
-)
-(connector
 	(text "CLOCK" (rect 408 200 445 212)(font "Arial" ))
 	(pt 392 216)
 	(pt 488 216)
@@ -899,17 +893,6 @@ applicable agreement for further details.
 	(pt 488 232)
 )
 (connector
-	(pt 200 320)
-	(pt 200 144)
-	(bus)
-)
-(connector
-	(text "MBRU_OUT[31..0]" (rect -30 128 62 140)(font "Arial" ))
-	(pt 200 144)
-	(pt -40 144)
-	(bus)
-)
-(connector
 	(pt -256 112)
 	(pt -256 72)
 	(bus)
@@ -977,17 +960,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 208 136)
-	(pt 208 120)
-	(bus)
-)
-(connector
-	(text "MBR_OUT[31..0]" (rect -16 104 67 116)(font "Arial" ))
-	(pt -40 120)
-	(pt 208 120)
-	(bus)
-)
-(connector
 	(pt 168 248)
 	(pt 168 56)
 )
@@ -1012,6 +984,34 @@ applicable agreement for further details.
 (connector
 	(pt 216 184)
 	(pt 216 368)
+	(bus)
+)
+(connector
+	(pt 208 136)
+	(pt 208 88)
+	(bus)
+)
+(connector
+	(text "MBRU_OUT[31..0]" (rect -16 72 76 84)(font "Arial" ))
+	(pt 208 88)
+	(pt -40 88)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS70369>>" (rect 313 304 442 316)(font "Arial" )(invisible))
+	(pt 480 320)
+	(pt 200 320)
+	(bus)
+)
+(connector
+	(pt 200 320)
+	(pt 200 152)
+	(bus)
+)
+(connector
+	(text "MBR_OUT[31..0]" (rect -46 136 37 148)(font "Arial" ))
+	(pt 200 152)
+	(pt -48 152)
 	(bus)
 )
 (junction (pt 768 288))
